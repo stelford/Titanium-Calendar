@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+description: Calendar/Event Widget. Ui component as well as event creation, search, destroy
+author: Stef Telford
+license: Apache 2 license
+copyright: Copyright (c) 2010 by Stef Telford
+
+
+# these should not be edited
+name: ticalendar
+moduleid: com.ti.calendar
+guid: 86953d9f-08f1-44d6-8f40-857de82a8403
+platform: iphone
+minsdk: 1.5.0

@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = D2AAC07D0554694100DB518D /* ticalendar */;
+		addToTargets = (
+			D2AAC07D0554694100DB518D /* ticalendar */,
+		);
+		codeSenseManager = E26A122112BAD16500CA9192 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					716,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					730,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					676,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 314233144;
+			PBXWorkspaceStateSaveDate = 314233144;
+		};
+		perUserProjectItems = {
+			E26A124512BAD20E00CA9192 /* XCBuildMessageTextBookmark */ = E26A124512BAD20E00CA9192 /* XCBuildMessageTextBookmark */;
+			E26A124612BAD20E00CA9192 /* PBXTextBookmark */ = E26A124612BAD20E00CA9192 /* PBXTextBookmark */;
+			E26A124D12BAD2D100CA9192 /* PBXTextBookmark */ = E26A124D12BAD2D100CA9192 /* PBXTextBookmark */;
+			E26A124E12BAD2D100CA9192 /* PBXTextBookmark */ = E26A124E12BAD2D100CA9192 /* PBXTextBookmark */;
+			E26A124F12BAD2D100CA9192 /* PBXTextBookmark */ = E26A124F12BAD2D100CA9192 /* PBXTextBookmark */;
+			E26A125012BAD2D100CA9192 /* PBXTextBookmark */ = E26A125012BAD2D100CA9192 /* PBXTextBookmark */;
+			E26A125112BAD2D100CA9192 /* PBXTextBookmark */ = E26A125112BAD2D100CA9192 /* PBXTextBookmark */;
+			E26A125212BAD2D100CA9192 /* PBXTextBookmark */ = E26A125212BAD2D100CA9192 /* PBXTextBookmark */;
+			E26A125312BAD2D100CA9192 /* PBXTextBookmark */ = E26A125312BAD2D100CA9192 /* PBXTextBookmark */;
+			E26A125412BAD2D100CA9192 /* PBXTextBookmark */ = E26A125412BAD2D100CA9192 /* PBXTextBookmark */;
+			E26A125512BAD2D100CA9192 /* PBXTextBookmark */ = E26A125512BAD2D100CA9192 /* PBXTextBookmark */;
+			E26A125612BAD2D100CA9192 /* PBXTextBookmark */ = E26A125612BAD2D100CA9192 /* PBXTextBookmark */;
+			E26A125712BAD2D100CA9192 /* PBXTextBookmark */ = E26A125712BAD2D100CA9192 /* PBXTextBookmark */;
+			E26A126112BAD52C00CA9192 /* PBXTextBookmark */ = E26A126112BAD52C00CA9192 /* PBXTextBookmark */;
+			E26A126212BAD52C00CA9192 /* PBXTextBookmark */ = E26A126212BAD52C00CA9192 /* PBXTextBookmark */;
+			E26A126312BAD52C00CA9192 /* PBXTextBookmark */ = E26A126312BAD52C00CA9192 /* PBXTextBookmark */;
+			E26A126412BAD52C00CA9192 /* PBXTextBookmark */ = E26A126412BAD52C00CA9192 /* PBXTextBookmark */;
+			E26A126512BAD52C00CA9192 /* PBXTextBookmark */ = E26A126512BAD52C00CA9192 /* PBXTextBookmark */;
+			E26A126612BAD52C00CA9192 /* PBXTextBookmark */ = E26A126612BAD52C00CA9192 /* PBXTextBookmark */;
+			E26A126712BAD52C00CA9192 /* XCBuildMessageTextBookmark */ = E26A126712BAD52C00CA9192 /* XCBuildMessageTextBookmark */;
+			E26A126812BAD52C00CA9192 /* PBXTextBookmark */ = E26A126812BAD52C00CA9192 /* PBXTextBookmark */;
+		};
+		sourceControlManager = E26A122012BAD16500CA9192 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	24416B8111C4CA220047AFDD /* Build & Test */ = {
+		activeExec = 0;
+	};
+	24DD6CF71134B3F500162E58 /* ComTiCalendarModule.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {894, 459}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 243}";
+		};
+	};
+	24DD6CF81134B3F500162E58 /* ComTiCalendarModule.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {692, 1326}}";
+			sepNavSelRange = "{200, 0}";
+			sepNavVisRange = "{0, 548}";
+		};
+	};
+	D2AAC07D0554694100DB518D /* ticalendar */ = {
+		activeExec = 0;
+	};
+	E26A122012BAD16500CA9192 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	E26A122112BAD16500CA9192 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E26A122612BAD16F00CA9192 /* ComTiCalendarItemProxy.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {894, 459}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 581}";
+		};
+	};
+	E26A122712BAD16F00CA9192 /* ComTiCalendarItemProxy.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {894, 1976}}";
+			sepNavSelRange = "{384, 0}";
+			sepNavVisRange = "{0, 710}";
+		};
+	};
+	E26A122812BAD16F00CA9192 /* ComTiCalendarView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {692, 325}}";
+			sepNavSelRange = "{286, 0}";
+			sepNavVisRange = "{0, 679}";
+		};
+	};
+	E26A122912BAD16F00CA9192 /* ComTiCalendarView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {894, 1911}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 810}";
+		};
+	};
+	E26A122A12BAD16F00CA9192 /* ComTiCalendarViewProxy.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {894, 459}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 361}";
+		};
+	};
+	E26A122B12BAD16F00CA9192 /* ComTiCalendarViewProxy.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {894, 459}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 350}";
+		};
+	};
+	E26A122C12BAD16F00CA9192 /* TdCalendarView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {894, 598}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 941}";
+		};
+	};
+	E26A122D12BAD16F00CA9192 /* TdCalendarView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {894, 6578}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1003}";
+		};
+	};
+	E26A124512BAD20E00CA9192 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "ComTestModule.h: No such file or directory";
+		fRef = E26A122812BAD16F00CA9192 /* ComTiCalendarView.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 8;
+		rType = 1;
+	};
+	E26A124612BAD20E00CA9192 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E26A122812BAD16F00CA9192 /* ComTiCalendarView.h */;
+		name = "ComTestTiCalendarView.h: 9";
+		rLen = 0;
+		rLoc = 286;
+		rType = 0;
+		vrLen = 679;
+		vrLoc = 0;
+	};
+	E26A124D12BAD2D100CA9192 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF71134B3F500162E58 /* ComTiCalendarModule.h */;
+		name = "ComTiCalendarModule.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 243;
+		vrLoc = 0;
+	};
+	E26A124E12BAD2D100CA9192 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E26A122D12BAD16F00CA9192 /* TdCalendarView.m */;
+		name = "TdCalendarView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1003;
+		vrLoc = 0;
+	};
+	E26A124F12BAD2D100CA9192 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E26A122C12BAD16F00CA9192 /* TdCalendarView.h */;
+		name = "TdCalendarView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 941;
+		vrLoc = 0;
+	};
+	E26A125012BAD2D100CA9192 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E26A122B12BAD16F00CA9192 /* ComTiCalendarViewProxy.m */;
+		name = "ComTestTiCalendarViewProxy.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 350;
+		vrLoc = 0;
+	};
+	E26A125112BAD2D100CA9192 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E26A122A12BAD16F00CA9192 /* ComTiCalendarViewProxy.h */;
+		name = "ComTestTiCalendarViewProxy.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 361;
+		vrLoc = 0;
+	};
+	E26A125212BAD2D100CA9192 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E26A122912BAD16F00CA9192 /* ComTiCalendarView.m */;
+		name = "ComTestTiCalendarView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 810;
+		vrLoc = 0;
+	};
+	E26A125312BAD2D100CA9192 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E26A122812BAD16F00CA9192 /* ComTiCalendarView.h */;
+		name = "ComTestTiCalendarView.h: 9";
+		rLen = 0;
+		rLoc = 314;
+		rType = 0;
+		vrLen = 684;
+		vrLoc = 0;
+	};
+	E26A125412BAD2D100CA9192 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E26A122712BAD16F00CA9192 /* ComTiCalendarItemProxy.m */;
+		name = "ComTestTiCalendarItemProxy.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 718;
+		vrLoc = 0;
+	};
+	E26A125512BAD2D100CA9192 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E26A122612BAD16F00CA9192 /* ComTiCalendarItemProxy.h */;
+		name = "ComTestTiCalendarItemProxy.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 581;
+		vrLoc = 0;
+	};
+	E26A125612BAD2D100CA9192 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF81134B3F500162E58 /* ComTiCalendarModule.m */;
+		name = "ComTiCalendarModule.m: 9";
+		rLen = 0;
+		rLoc = 243;
+		rType = 0;
+		vrLen = 770;
+		vrLoc = 0;
+	};
+	E26A125712BAD2D100CA9192 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF81134B3F500162E58 /* ComTiCalendarModule.m */;
+		name = "ComTiCalendarModule.m: 9";
+		rLen = 0;
+		rLoc = 243;
+		rType = 0;
+		vrLen = 1251;
+		vrLoc = 1307;
+	};
+	E26A126112BAD52C00CA9192 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF81134B3F500162E58 /* ComTiCalendarModule.m */;
+		name = "ComTiCalendarModule.m: 9";
+		rLen = 0;
+		rLoc = 243;
+		rType = 0;
+		vrLen = 1251;
+		vrLoc = 1307;
+	};
+	E26A126212BAD52C00CA9192 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E26A122612BAD16F00CA9192 /* ComTiCalendarItemProxy.h */;
+		name = "ComTiCalendarItemProxy.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 581;
+		vrLoc = 0;
+	};
+	E26A126312BAD52C00CA9192 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E26A122812BAD16F00CA9192 /* ComTiCalendarView.h */;
+		name = "ComTiCalendarView.h: 9";
+		rLen = 0;
+		rLoc = 314;
+		rType = 0;
+		vrLen = 684;
+		vrLoc = 0;
+	};
+	E26A126412BAD52C00CA9192 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E26A122912BAD16F00CA9192 /* ComTiCalendarView.m */;
+		name = "ComTiCalendarView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 810;
+		vrLoc = 0;
+	};
+	E26A126512BAD52C00CA9192 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E26A122A12BAD16F00CA9192 /* ComTiCalendarViewProxy.h */;
+		name = "ComTiCalendarViewProxy.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 361;
+		vrLoc = 0;
+	};
+	E26A126612BAD52C00CA9192 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E26A122B12BAD16F00CA9192 /* ComTiCalendarViewProxy.m */;
+		name = "ComTiCalendarViewProxy.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 350;
+		vrLoc = 0;
+	};
+	E26A126712BAD52C00CA9192 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "ComTestTiCalendarItemProxy.h: No such file or directory";
+		fRef = E26A122712BAD16F00CA9192 /* ComTiCalendarItemProxy.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 7;
+		rType = 1;
+	};
+	E26A126812BAD52C00CA9192 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E26A122712BAD16F00CA9192 /* ComTiCalendarItemProxy.m */;
+		name = "ComTiCalendarItemProxy.m: 15";
+		rLen = 0;
+		rLoc = 384;
+		rType = 0;
+		vrLen = 710;
+		vrLoc = 0;
+	};
+}

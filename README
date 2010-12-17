@@ -1,0 +1,89 @@
+Appcelerator Titanium iPhone Module Project
+===========================================
+
+This is a module for Titanium-Mobile, specifically the iPhone part. It allows
+the user to create/search and delete events in the calendar, as well as providing
+a rough UI (based off of code by TinyFool - Dankeschoen)
+
+INSTALL YOUR MODULE
+--------------------
+
+1. Run `build.py` which creates your distribution
+2. cd to `/Library/Application Support/Titanium`
+3. copy this zip file into the folder of your Titanium SDK
+
+or
+
+1. Copy the zipfile for iOS 4.2 into the directory `/Library/Application Support/Titanium`
+
+REGISTER YOUR MODULE
+---------------------
+
+Register your module with your application by editing `tiapp.xml` and adding your module.
+Example:
+
+<modules>
+	<module version="0.1">com.ti.calendar</module>
+</modules>
+
+When you run your project, the compiler will know automatically compile in your module
+dependencies and copy appropriate image assets into the application.
+
+USING YOUR MODULE IN CODE
+-------------------------
+
+To use your module in code, you will need to require it. 
+
+Ex: var ticalendar = require("com.ti.calendar");  
+
+
+FUNCTIONS
+---------
+
+### Com.Ti.Calendar.createItem
+
+This is the function that is called to create a new event. Currently, only
+title and startDate are accepted. The events default to a duration of 20
+minutes. The item is in MEMORY only at this point, to save it into the 
+iphone's calendar, you will need to call saveEvent()
+
+Ex: var ev = Calendar.createItem({title:"Stefs Event", startDate: new Date()});
+
+### Com.Ti.Calendar.saveEvent
+
+Invoking this function on a previously created calendar event will save it.
+A dictionary will be passed back, with status and any error message if 
+appropriate.
+
+Ex: var p = ev.saveEvent();
+
+### Com.Ti.Calendar.findEvents
+
+Calling this function, and passing in a start and end date will return a 
+dictionary of event items from the calendar (upto 9999). 
+
+Ex: var o = Calendar.findEvents({ start: startDate, end: endDate });
+
+### Com.Ti.Calendar.deleteEvent();
+
+This will cause the event to be deleted from the iphone's calendar. A
+dictionary will be passed back, with status and any error message.
+
+Ex: var g = ev.deleteEvent();
+
+### Com.Ti.Calendar.createView();
+
+This will display the calendar widget/view. This is not required for
+any of the other functions to work. It currently can take a color for
+background, a dictionary of events (from the findEvents call), and 
+you can also register a callback function for whenever a date is clicked.
+In the case of a date being clicked that has events, a structure similiar
+to findEvents will be passed back.
+
+Ex: var foo = Calendar.createView({color:"lightgray", events: o,
+        eventsSelected: function(e) {
+              for (key in e.events) {
+                  alert(e.events[key].title+" starts at "+e.events[key].startDate+" and has id of "+e.events[key].eventIdentifier);
+              }
+        }
+    });
