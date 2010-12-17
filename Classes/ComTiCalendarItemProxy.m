@@ -9,6 +9,7 @@
 #import "TiUtils.h"
 #import "TiBase.h"
 #import <EventKit/EventKit.h>
+#import <Foundation/NSFormatter.h>
 
 
 
@@ -66,10 +67,9 @@
 	NSDate *tmpSdate = [self valueForUndefinedKey:@"sdate"];
 	// if it's a sane value, then let's format it out
 	if (tmpSdate != nil) {
-		NSDateFormatter *dateFormatter = [[[NSDateFormatter alloc] init] autorelease];
-		[dateFormatter setDateFormat:@"dd/MM/yyyy HH:mm:ss"];
-		[dateFormatter setTimeZone:[NSTimeZone timeZoneWithName:@"UTC"]];
-		return [dateFormatter stringFromDate:tmpSdate];
+		return [NSDateFormatter localizedStringFromDate:tmpSdate
+											dateStyle:NSDateFormatterMediumStyle
+											timeStyle:NSDateFormatterShortStyle];
 	}		
 	return @"";
 }

@@ -73,9 +73,6 @@
 }
 
 -(void)setColor_:(id)color {
-	if (self.events == nil) {
-		[self setEvents: color];
-	}
 	UIColor *c = [[TiUtils colorValue:color] _color]; 
 	UIView *s = [self cal]; 
 	s.backgroundColor = c;

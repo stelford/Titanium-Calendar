@@ -79,7 +79,7 @@
 	NSDictionary *theDict = [[NSMutableDictionary alloc] init];
 	NSInteger num=0;
 	
-	if ([startDate earlierDate: endDate]) {
+	if ([startDate compare: endDate] == NSOrderedAscending) {
 		NSPredicate *predicate = [store predicateForEventsWithStartDate: startDate endDate: endDate calendars: nil]; 
 		NSArray *eventList = [store eventsMatchingPredicate:predicate];
 		for (EKEvent *event in eventList) {           
