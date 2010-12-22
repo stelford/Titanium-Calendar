@@ -22,6 +22,8 @@
 	{
 		[self setTitle:event.title];
 		[self setStartDate:event.startDate];
+		[self setEndDate:event.endDate];
+		[self replaceValue:event.location forKey:@"location" notification:NO];
 		[self replaceValue:event.eventIdentifier forKey:@"eventIdentifier" notification:NO];
 	}
 	return self;
@@ -82,6 +84,25 @@
 	[self replaceValue:value forKey:@"sdate" notification:NO];
 }
 
+-(id)endDate
+{
+	// grab the value from the dynprops first of all
+	NSDate *tmpEdate = [self valueForUndefinedKey:@"edate"];
+	// if it's a sane value, then let's format it out
+	if (tmpEdate != nil) {
+		return [NSDateFormatter localizedStringFromDate:tmpEdate
+											  dateStyle:NSDateFormatterMediumStyle
+											  timeStyle:NSDateFormatterShortStyle];
+	}		
+	return @"";
+}
+
+-(void)setEndDate:(id)value
+{
+	ENSURE_TYPE_OR_NIL(value,NSDate);
+	[self replaceValue:value forKey:@"edate" notification:NO];
+}
+
 
 
 // Surely there has to be a way to hook into the create....({}) call ?
@@ -91,7 +112,11 @@
 	EKEvent *_event = [EKEvent eventWithEventStore:eventStore];
 	_event.title = [self valueForUndefinedKey:@"title"];
 	_event.startDate = [self valueForUndefinedKey:@"sdate"];	
-	_event.endDate   = [[[NSDate alloc] initWithTimeInterval:1200 sinceDate:_event.startDate] autorelease];
+	_event.location = [self valueForUndefinedKey:@"location"];	
+	_event.endDate = [self valueForUndefinedKey:@"edate"];	
+    if ([self valueForUndefinedKey:@"edate"] == nil) {
+		_event.endDate = [[[NSDate alloc] initWithTimeInterval:1200 sinceDate:_event.startDate] autorelease];
+	}
 	
     [_event setCalendar:[eventStore defaultCalendarForNewEvents]];
     NSError *err = nil;

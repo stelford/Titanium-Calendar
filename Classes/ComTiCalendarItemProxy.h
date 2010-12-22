@@ -21,6 +21,8 @@
 -(void)setTitle:(id)value;
 -(id)startDate;
 -(void)setStartDate:(id)value;
+-(id)endDate;
+-(void)setEndDate:(id)value;
 
 
 
